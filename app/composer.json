@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "controllers/",
+      "Models\\": "models/",
+      "Database\\": "database/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "ext-mysqli": "*"
+  }
+}
