@@ -26,8 +26,8 @@ services:
       MYSQL_PASSWORD: admin
       MYSQL_ROOT_PASSWORD: root
     restart: unless-stopped
-    volumes:
-      - db-offgroup:/var/lib/mysql/
+#    volumes:
+#      - db-offgroup:/var/lib/mysql/
 
 volumes:
   db-offgroup:
